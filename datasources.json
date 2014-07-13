@@ -1,0 +1,25 @@
+{
+  "db": {
+    "connector": "memory",
+    "defaultForType": "db"
+  },
+  "push": {
+    "connector": "loopback-component-push",
+    "defaultForType": "push",
+    "installation": "installation",
+    "notification": "notification",
+    "application": "application"
+  },
+  "mail": {
+    "connector": "mail",
+    "defaultForType": "mail"
+  },
+  "mongo": {
+    "connector": "mongodb",
+    "host": "kahana.mongohq.com",
+    "database": "environs",
+    "username": "envusr",
+    "password": "3nvu5r",
+    "port": 10062
+  }
+}
