@@ -103,6 +103,9 @@
       },
       "wspd": {
         "type": "number"
+      },
+      "light":{
+        "type": "number"
       }
     }
   }
